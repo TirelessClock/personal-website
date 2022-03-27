@@ -1,6 +1,7 @@
 # Glass Quarter Empty
 
 First Web Development Project built using HTML and CSS (so far...)
+(I haven't deployed it yet, so I cannot provide a URL)
 Personal website to update regularly - would contain resume, achievements, projects and anything else I wanna put into it 
 
 Zoomed out first draft of index page:

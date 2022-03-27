@@ -1,6 +1,9 @@
-span{
+#title{
     font-variant: small-caps;
     font-size:xx-large;
+}
+.not_title{
+    color:white;
 }
 
 body{
