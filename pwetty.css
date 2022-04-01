@@ -4,6 +4,7 @@
 }
 .not_title{
     color:white;
+    font-style:bold;
 }
 
 body{
@@ -11,9 +12,10 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     color:whitesmoke;
-    padding: 30px;
+    padding: 5px 20px;
 }
 header{
+    margin-top: 30px;
     color:lightskyblue;
 }
 h2{
@@ -23,7 +25,9 @@ h2{
 div{
     color:ghostwhite;
     font-size:0.45cm;
-    width:50%;
+    width:45%;
+    /* border: solid white 1px; */
+    /* margin:10px; */
 }
 
 #icon{
