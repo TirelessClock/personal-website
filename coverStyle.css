@@ -1,12 +1,55 @@
 body{
+    opacity: 100%;
     overflow-y:scroll;
     background-attachment: fixed;
-    background-image: url("images/Screenshot\ 2022-05-03\ at\ 3.44.16\ PM.png");
+    background-image: url("images/Screenshot\ 2022-05-03\ at\ 12.00.21\ PM.png");
     background-repeat: no-repeat;
     background-size:cover;
+    margin: 0 0;
 }
 
+#bg{
+    /* opacity:0; */
+    background-image:url("images/Screenshot\ 2022-05-03\ at\ 3.44.16\ PM.png");
+    overflow-y:scroll;
+    position:fixed;
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0 0;
+    width: 100%;
+}
+
+#fill-space{
+    overflow:scroll;
+    color:black;
+}
+
+#top-bar{
+    padding-top:20px;
+    padding-left: 20px;
+    padding-bottom:20px;
+    color:aliceblue;
+    font-size:large;
+    font-variant: small-caps;
+    position:fixed;
+    width:100%;
+    background-image: url("images/Screenshot\ 2022-05-03\ at\ 6.20.23\ PM.png");
+    margin:0px;
+}
+
+button{
+    background-color:rgb(184, 197, 232);
+    border-radius: 20px;
+    padding: 10px;
+    font-variant: small-caps;
+    border-color:black;
+}
+
+
+
 #intro-quote{
+    position:relative;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:white;
     margin-left:25%;
@@ -15,13 +58,9 @@ body{
     font-size:large;
 }
 #name{
+    position:relative;
     color:white;
     margin-left:32.25%;
     font-size:large;
-    padding-bottom:400px;
-}
-
-#scroll-region{
-    height:200px;
-    overflow:scroll;
+    padding-bottom:350px;
 }
