@@ -1,0 +1,27 @@
+body{
+    overflow-y:scroll;
+    background-attachment: fixed;
+    background-image: url("images/Screenshot\ 2022-05-03\ at\ 3.44.16\ PM.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#intro-quote{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+    margin-left:25%;
+    margin-top:24%;
+    padding-bottom:5%;
+    font-size:large;
+}
+#name{
+    color:white;
+    margin-left:32.25%;
+    font-size:large;
+    padding-bottom:400px;
+}
+
+#scroll-region{
+    height:200px;
+    overflow:scroll;
+}
