@@ -6,8 +6,8 @@
         <link rel="script" href="coverJS.js">
         <script src="https://kit.fontawesome.com/1cd70113b5.js" crossorigin="anonymous"></script>
     </head>
-    <body>
 
+    <body>
         <div id="top-bar">
             Glass Quarter Empty &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
             <span class = "tab">projects</span>&emsp;&emsp;
@@ -15,16 +15,57 @@
             <span class = "tab">blog</span>&emsp;&emsp;
             <span class = "tab">achievements</span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
             <i class="fa-solid fa-magnifying-glass"></i>&emsp;&emsp;
-            <button>Keep Out</button>
+            <button id="brightness">Keep Out</button>
         </div>
-        
-        <div id = "bg">
-            <div id="intro-quote">" T H E&emsp;G L A S S&emsp;I S&emsp;Q U A R T E R&emsp;E M P T Y "</div>
-            <div id="name">A B H I M A N Y U&emsp;D A Y A L</div>
-            <div id="fill-space">a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br></div>
+
+        <div id="slideshow">
+
+            <div class = "mySlides">
+                <img src="images/slideshow/painting_1.jpeg" style="width:100%; height:400px;">
+            </div>
+            <div class = "mySlides">
+                <img src="images/slideshow/Famous-Landscape-Paintings.jpeg" style="width:100%; height:400px;">
+            </div>
+            <div class = "mySlides">
+                <img src="images/slideshow/painting_3.jpeg" style="width:100%">
+            </div>
+            <div class = "mySlides">
+                <img src="images/slideshow/painting_4.jpeg" style="width:100%; height:400px; overflow:hidden;">
+            </div>
+            <div id="back" onclick="plusSlides(-1)"><i class="fa-solid fa-angle-left"></i></div>
+            <div id="next" onclick="plusSlides(1)"><i class="fa-solid fa-angle-right"></i></div>
+
+            <div>
+                <div class="dot" onclick="currentSlide(1)"><i class="fa-solid fa-circle"></i></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="dot" onclick="currentSlide(2)"><i class="fa-solid fa-circle"></i></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="dot" onclick="currentSlide(3)"><i class="fa-solid fa-circle"></i></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="dot" onclick="currentSlide(4)"><i class="fa-solid fa-circle"></i></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+
         </div>
+
+        <div id="front-screen-stuff">
+            <div id = "bg">
+                <div id="intro-quote">" T H E&emsp;G L A S S&emsp;I S&emsp;Q U A R T E R&emsp;E M P T Y "</div>
+                <div id="name">A B H I M A N Y U&emsp;D A Y A L</div>
+            </div>
+            <div id="scroll-object"><i class="fa-solid fa-angle-down"></i></div>
+        </div><br><br>
         
+        <div id="about-me" style="justify-content: center;">
+            <div style="font-weight: bold; display: flex; justify-content: center; font-variant:small-caps; font-size:large;">About Me<br><br></div>
+            I'm a fresher student at Delhi 
+            Technology University. My other 
+            dimensions include writer, 
+            artist, programmer and pop culture 
+            enthusiast. I love Chess, Typeracing, 
+            Table Tennis and sketching. <br><br>
+            In tech, I'm enthusiastic about everything
+            ranging from Machine Learning, Web Development (Behold!) and Data Structures/Algorithms.<br><br>
+            I'm fluent in English and Hindi, and have a working proficiency of French. 
+            <br><br><br>
+        </div><br><br><br><br>
 
         <script src="coverJS.js"></script>
     </body>
-</html>
+    </html>
